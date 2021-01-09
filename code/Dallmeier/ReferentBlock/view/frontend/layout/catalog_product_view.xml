@@ -1,0 +1,11 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      layout="1column"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="product.info.main">
+            <block class="Dallmeier\ReferentBlock\Block\AdditionalInfo"
+                   name="magenest.additional.info.customer"
+                   template="Dallmeier_ReferentBlock::additional_info.phtml"/>
+        </referenceContainer>
+    </body>
+</page>

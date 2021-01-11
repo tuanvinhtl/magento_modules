@@ -32,7 +32,7 @@ class AdditionalInfo extends Template
     {
         $customer = $this->customerRepositoryInterface->getById($this->customerSession->getCustomer()->getId());
         $customerAttributeData = $customer->__toArray();
-        return $customerAttributeData['custom_attributes'];
+        return $customerAttributeData['custom_attributes'] ;
     }
     
 }
